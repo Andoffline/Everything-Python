@@ -1,1 +1,1 @@
-Test2
+print('Hello')
