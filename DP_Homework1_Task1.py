@@ -1,3 +1,4 @@
+#Exercise 1
 classroom = ['john', 'maria', 'maria', 'ahmet', 'eleni', 'rho', 'john', 'maria', 'jules']
 #Function used to count number of times name is mentioned in the list
 def count(list,name):
@@ -9,11 +10,11 @@ def count(list,name):
             i+=1
         else:
             i+=1
-    print('Number of times name ',name,'memtioned is: ',count)
+    print('Number of times name',name,'mentioned is: ',count)
 
 name=input('Enter name of student:')
 count(classroom,name)
 
-    
+
 
     
