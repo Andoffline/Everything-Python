@@ -10,10 +10,9 @@ def count(list,name):
             i+=1
         else:
             i+=1
-    print('Number of times name',name,'mentioned is: ',count)
-
+    return count
 name=input('Enter name of student:')
-count(classroom,name)
+print(count(classroom,name))
 
 
 
